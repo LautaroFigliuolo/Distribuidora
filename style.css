@@ -1,0 +1,119 @@
+body{
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+h3{
+    text-align: center;
+}
+/*----------------------MENU DE NAVEGACION--------------------------*/
+li{
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+}
+a{
+    color:black ;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display:inline-block;
+}
+nav{
+    
+    text-align: center;
+    
+    width: 100%;
+    padding-top: 5px;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    padding-top: 0px; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: black; 
+}
+.menu{
+    background-color: white;
+}
+.menu2{
+    border-top: 0.5px solid #6DD96C;
+    border-bottom: 0.5px solid #6DD96C; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+a:hover{
+    color: #6DD96C;
+}
+/*----------------------------ESPECIALIZACION---------------------------------*/
+#inicio{
+    border-bottom: 1.5px solid #6DD96C;
+    padding-top: 15px;
+    text-align: center;
+}
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: 0.5px solid #6DD96C; 
+    padding-top: 5px;
+    padding-bottom: 55px;
+}
+.card{
+    margin-top: 25px;
+}
+#especializacion{
+    text-align: center;
+    padding-top: 15px;
+}
+/*----------------------LOGIN--------------------------*/
+.botones{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+#login{
+    border-bottom: 0.5px solid #6DD96C; 
+    padding-bottom: 35px;
+}
+#login h3{
+    padding-top: 35px;
+}
+
+/*---------------------------Formulario------------------------*/
+.itemform{
+    display: grid;  
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+#boton{
+    justify-content: end;
+    margin-right: 27px;
+    text-decoration: none;
+}
+.itemform label{
+    font-weight: 500;
+}
+#formulario{
+    margin-top: 25px;
+}
+.itemform input, .itemform textarea{
+    border-radius: 5px;
+    border: 0.5px solid #6DD96C;
+}
+.itemform [type="submit"]{
+    background-color: #6DD96C;
+    
+    text-decoration: none;
+    padding: 5px 10px 5px 10px ;
+}
+#contacto{
+    margin-top: 50px;
+}
