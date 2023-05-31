@@ -8,7 +8,7 @@ h3{
 }
 /*----------------------MENU DE NAVEGACION--------------------------*/
 li{
-    float: left;
+    float: right;
     margin-right: 20px;
     list-style: none;
 }
@@ -21,14 +21,13 @@ ul{
     display:inline-block;
 }
 nav{
-    
     text-align: center;
-    
-    width: 100%;
     padding-top: 5px;
+    padding: 100 100 0 50 ;
 }
 nav ul{
     display: inline-block;
+   
 }
 nav ul li{
     padding-top: 0px; 
@@ -36,21 +35,24 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black; 
+    
 }
-.menu{
-    background-color: white;
-}
+
 .menu2{
     border-top: 0.5px solid #6DD96C;
     border-bottom: 0.5px solid #6DD96C; 
     padding-bottom: 10px;
     padding-top: 10px;
+    background-color: white;
+    justify-content: center;
+    margin-top: 0px;    
 }
 a:hover{
     color: #6DD96C;
 }
 /*----------------------------ESPECIALIZACION---------------------------------*/
 #inicio{
+    
     border-bottom: 1.5px solid #6DD96C;
     padding-top: 15px;
     text-align: center;
