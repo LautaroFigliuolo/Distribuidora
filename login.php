@@ -1,3 +1,4 @@
+<?php require "db.php";?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +11,7 @@
     <title>Login</title>
 </head>
 <body>
+    <h2>Iniciar Sesión</h2>
     <div  class="login1">
         <form action="">
             <div class="itemform">
