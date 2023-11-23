@@ -11,7 +11,7 @@
     <title>Login</title>
 </head>
 <body>
-    <h2>Iniciar Sesión</h2>
+    <h2 class="subtitulos">Iniciar Sesión</h2>
     <div  class="login1">
         <form action="">
             <div class="itemform">

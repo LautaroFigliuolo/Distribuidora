@@ -22,16 +22,18 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     <title>REGISTRO</title>
 </head>
 <body>
+<h2 class="subtitulos">Registrarse</h2>
 
-<form class="agregar" action="registrar.php" method="POST">
-  <div>
-    <label class="form-label">Nombre:</label>
-    <input type="text" class="form-control" name="name">
-  </div>
-    <label class="form-label">Contraseña</label>
-    <input type="password" class="form-control" name="contraseña">
-  </div>
-  <button type="submit" class="btn btn-primary">Agregar</button>
+<form class="login1" action="registrar.php" method="POST">
+    <div class="itemform">
+          <label class="form-label" >Usuario: </label> 
+          <input type="text" name="name" id="usuario" required> 
+    </div>
+    <div class="itemform">
+          <label class="form-label" >Contraseña: </label>
+          <input type="password" name="contraseña" id="contraseña" require>
+    </div>
+    <button type="submit" class="btn btn-outline-success">Registarse</button>
 </form>
 
         
